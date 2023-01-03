@@ -161,7 +161,7 @@ const projects = [
     title: 'CFW',
     category: 'Partner',
     description:
-      'The parctical mastermind. Very dependable and always ready to help. I am very happy to have him as a friend!',
+      'The practical mastermind. Very dependable and always ready to help. I am very happy to have him as a friend!',
     image: 'svg/CFW.svg',
     link: 'https://www.youtube.com/channel/UClU8mK17SZwqCLDES0olV1w',
   },
