@@ -3,6 +3,7 @@ import Header from './Header'
 import Hero from './Hero'
 import Section from './Section'
 import Footer from './Footer'
+import FAB from './FAB'
 
 const projects = [
   {
@@ -232,6 +233,8 @@ const App: Component = () => {
         />
       </div>
       <Footer />
+
+      <FAB />
     </div>
   )
 }

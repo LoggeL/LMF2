@@ -9,7 +9,7 @@ function scrollToSmooth(event) {
 
 const Header: Component = () => {
   return (
-    <div class='w-full h-15 border dark:border-gray-800 shadow-lg'>
+    <nav class='w-full h-15 border shadow-lg'>
       <div class='flex h-15 items-center justify-between sm:px-0 md:px-10 xl:px-15'>
         <div class='p-2'>
           <a href='#' class='text-xl font-bold'>
@@ -20,14 +20,26 @@ const Header: Component = () => {
             />
           </a>
         </div>
-        <div class='flex p-2 sm:text-sm sm:text-md xl:text-xl font-semibold'>
-          <a href='#Movie' onclick={scrollToSmooth} class='p-2 text-red-600'>
+        <div class='flex p-2 font-semibold xl:text-xl md:text-base sm:text-sm text-xs'>
+          <a
+            href='#Movie'
+            onclick={scrollToSmooth}
+            class='p-2 text-red-600 md:block display-none'
+          >
             Movies
           </a>
-          <a href='#Website' onclick={scrollToSmooth} class='p-2 text-red-600'>
+          <a
+            href='#Website'
+            onclick={scrollToSmooth}
+            class='p-2 text-red-600 md:block display-none'
+          >
             Websites
           </a>
-          <a href='#Partner' onclick={scrollToSmooth} class='p-2 text-red-600'>
+          <a
+            href='#Partner'
+            onclick={scrollToSmooth}
+            class='p-2 text-red-600 md:block display-none'
+          >
             Partners
           </a>
           <a href='#Contact' onclick={scrollToSmooth} class='p-2 text-red-600'>
@@ -35,7 +47,7 @@ const Header: Component = () => {
           </a>
         </div>
       </div>
-    </div>
+    </nav>
   )
 }
 
