@@ -31,22 +31,23 @@ export default function Section(props: {
             {props.description}
           </p>
         </div>
-        <div class='flex flex-wrap m-4'>
+        <div class='flex flex-wrap items-stretch m-4'>
           <For
             each={Array.from(
               props.projects.filter((p) => p.category.includes(props.filter))
             )}
           >
             {(project) => (
-              <div class='xl:w-1/4 md:w-1/2'>
-                <div class='p-2'>
-                  <div class='bg-gray-100 p-6 rounded-lg'>
+              <div class='xl:max-w-1/4 xl:max-w-1/4 xl:w-1/4 md:w-1/2 flex flex-grow'>
+                <div class='p-2 flex flex-grow'>
+                  <div class='bg-gray-100 p-6 rounded-lg flex-grow'>
                     <a href={project.link} target='_blank'>
                       {project.image && (
                         <img
-                          class='hover:scale-105 ease-in duration-100 h-40 rounded w-full object-cover object-center mb-6'
+                          class='hover:scale-105 ease-in duration-100 max-w-full max-h-40 rounded w-full mb-6 aspect-16/9'
                           src={project.image}
                           alt='content'
+                          style='object-fit: contain;'
                         />
                       )}
                       {project.picture && (
@@ -60,18 +61,20 @@ export default function Section(props: {
                             type='image/webp'
                           />
                           <img
-                            class='block mx-auto object-contain hover:scale-105 ease-in duration-100 h-40 rounded object-center mb-6'
+                            class='block mx-auto hover:scale-105 ease-in duration-100 max-w-full max-h-40 rounded mb-6 aspect-16/9'
                             src={project.picture + '.jpg'}
                             alt='content'
+                            style='object-fit: contain;'
                           />
                         </picture>
                       )}
                       {project.video && (
                         <video
-                          class='block mx-auto object-contain hover:scale-105 ease-in duration-100 h-40 rounded object-center mb-6'
+                          class='block mx-auto hover:scale-105 ease-in duration-100 max-w-full max-h-40 rounded mb-6 aspect-16/9'
                           src={project.video}
                           alt='content'
                           autoplay
+                          muted
                           loop
                         />
                       )}
