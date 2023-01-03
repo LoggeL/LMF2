@@ -48,6 +48,7 @@ export default function Section(props: {
                           src={project.image}
                           alt='content'
                           style='object-fit: contain;'
+                          loading='lazy'
                         />
                       )}
                       {project.picture && (
@@ -65,6 +66,7 @@ export default function Section(props: {
                             src={project.picture + '.jpg'}
                             alt='content'
                             style='object-fit: contain;'
+                            loading='lazy'
                           />
                         </picture>
                       )}
@@ -72,7 +74,6 @@ export default function Section(props: {
                         <video
                           class='block mx-auto hover:scale-105 ease-in duration-100 max-w-full max-h-40 rounded mb-6 aspect-16/9'
                           src={project.video}
-                          alt='content'
                           autoplay
                           muted
                           loop
