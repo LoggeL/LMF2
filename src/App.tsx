@@ -7,6 +7,14 @@ import FAB from './FAB'
 
 const projects = [
   {
+    title: 'Melod.ai - Karaoke App',
+    category: 'Website',
+    description:
+      'All in one Karaoke App using Machine Learning to extract the vocals and lyrics from any song.',
+    picture: 'images/Melodai',
+    link: 'https://melodai.logge.top',
+  },
+  {
     title: 'Exception - Short Film',
     category: 'Movie',
     description:

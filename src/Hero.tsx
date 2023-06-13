@@ -23,8 +23,8 @@ export default function Header(props: {
             </p>
           </div>
           <div class='mb-12 lg:mb-0'>
-            Latest Project:
-            <a href={props.projects[0].link} target='_blank'>
+            Latest Project: {props.projects[0].title}
+            <a onClick={() => scrollToProject(props.projects[0].link)}>
               <div
                 class='hover:scale-101 ease-in duration-100 embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg shadow-md hover:shadow-lg'
                 style={`padding-top: 56.25%; background-image: url(${
@@ -37,4 +37,12 @@ export default function Header(props: {
       </div>
     </div>
   )
+}
+
+function scrollToProject(link) {
+  setTimeout(() => {
+    document.querySelector(`a[href="${link}"]`).scrollIntoView({
+      behavior: 'smooth',
+    })
+  }, 100)
 }
