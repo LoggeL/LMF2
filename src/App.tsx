@@ -7,6 +7,14 @@ import FAB from './FAB'
 
 const projects = [
   {
+    title: 'Infected - Short Film',
+    category: 'Movie',
+    description:
+      'An action packed short film, shot over 2 days. Post production took about 2 months.',
+    picture: 'images/Infected',
+    link: 'https://www.youtu.be/6iNdfsbZWHs',
+  },
+  {
     title: 'Melod.ai - Karaoke App',
     category: 'Website',
     description:
