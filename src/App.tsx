@@ -12,7 +12,7 @@ const projects = [
     description:
       'An action packed short film, shot over 2 days. Post production took about 2 months.',
     picture: 'images/Infected',
-    link: 'https://www.youtu.be/6iNdfsbZWHs',
+    link: 'https://youtu.be/6iNdfsbZWHs',
   },
   {
     title: 'Voll-O-Meter',
