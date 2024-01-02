@@ -15,6 +15,14 @@ const projects = [
     link: 'https://www.youtu.be/6iNdfsbZWHs',
   },
   {
+    title: 'Voll-O-Meter',
+    category: 'Website',
+    description:
+      'A website with PWA support to track your blood alcohol level based on your drinks. It features decay and a lot of other cool stuff.',
+    picture: 'images/VollOMeter',
+    link: 'https://loggel.github.io/VollOMeter',
+  },
+  {
     title: 'Melod.ai - Karaoke App',
     category: 'Website',
     description:
