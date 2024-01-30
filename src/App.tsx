@@ -7,6 +7,14 @@ import FAB from './FAB'
 
 const projects = [
   {
+    title: 'Skiing Aftermovvie 2024 - Epic Version',
+    category: 'Movie',
+    description:
+      "The yearly Skiing Aftermovie. This year we've been in Flachau. Tried something different this time and used some epic music.",
+    picture: 'images/Skiing2024epic',
+    link: 'https://www.youtube.com/watch?v=rZaMHwuKFcw',
+  },
+  {
     title: 'Infected - Short Film',
     category: 'Movie',
     description:
