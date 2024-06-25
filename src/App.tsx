@@ -215,11 +215,12 @@ const projects = [
     link: 'https://t.me/loggel',
   },
   {
-    title: 'Discord - Logge#1337',
+    title: 'Discord - Username: logge.top',
     category: 'Contact',
     description:
       'If you have questions or want to talk about a project, feel free to contact me via Discord (DM or in the GBB Server). ',
     image: 'svg/Discord.svg',
+    link: 'https://discord.gg/K7Tjtfq',
   },
   {
     title: 'GitHub - LoggeL',
