@@ -7,6 +7,23 @@ import FAB from './FAB'
 
 const projects = [
   {
+    title: 'Melod.ai - Karaoke App',
+    category: 'Website',
+    description:
+      'All in one Karaoke App using Machine Learning to extract the vocals and lyrics from any song.',
+    picture: 'images/Melodai',
+    link: 'https://melodai.logge.top',
+  },
+  {
+    title: 'Skiing Aftermovvie 2024 - Fun Version',
+    category: 'Movie',
+    description:
+      "The yearly Skiing Aftermovie (VERSION 2). Fun edit with AI music.",
+    picture: 'images/Skiing2024fun',
+    link: 'https://www.youtube.com/watch?v=dJX9U7F-FIM',
+  },
+
+  {
     title: 'Skiing Aftermovvie 2024 - Epic Version',
     category: 'Movie',
     description:
@@ -29,14 +46,6 @@ const projects = [
       'A website with PWA support to track your blood alcohol level based on your drinks. It features decay and a lot of other cool stuff.',
     picture: 'images/VollOMeter',
     link: 'https://loggel.github.io/VollOMeter',
-  },
-  {
-    title: 'Melod.ai - Karaoke App',
-    category: 'Website',
-    description:
-      'All in one Karaoke App using Machine Learning to extract the vocals and lyrics from any song.',
-    picture: 'images/Melodai',
-    link: 'https://melodai.logge.top',
   },
   {
     title: 'Exception - Short Film',
