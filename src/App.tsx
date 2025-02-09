@@ -7,6 +7,15 @@ import FAB from './FAB'
 
 const projects = [
   {
+    title: 'Oilberts Adventure',
+    category: 'Website',
+    description:
+      'A jump and run game with a cute little VW Bus as the main character.',
+    picture: 'images/Oilbert',
+
+    link: 'https://loggel.github.io/OilbertsAdventure/',
+  },
+  {
     title: 'Melod.ai - Karaoke App',
     category: 'Website',
     description:
@@ -18,7 +27,7 @@ const projects = [
     title: 'Skiing Aftermovvie 2024 - Fun Version',
     category: 'Movie',
     description:
-      "The yearly Skiing Aftermovie (VERSION 2). Fun edit with AI music.",
+      'The yearly Skiing Aftermovie (VERSION 2). Fun edit with AI music.',
     picture: 'images/Skiing2024fun',
     link: 'https://www.youtube.com/watch?v=dJX9U7F-FIM',
   },
